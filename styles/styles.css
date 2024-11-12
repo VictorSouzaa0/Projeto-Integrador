@@ -7,11 +7,50 @@
 }
 /* É inserido a cor na info-bar */
 section.info-bar{
-    background-color: #2D3773;
+    background-color: #000000;
+    font-family: "Shrikhand", serif;
 }
 section.nav{
-    background-color: #ffffff;
+    background-color: #000000;
 }
+
+.CompraSegura.FreteGratis.Entrgemos{
+
+    color: white;
+}
+
+/*Definindo  a cor boostrap icons */
+.info-bar i{
+    color: orange;
+}
+
+.nav{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+.nav .HooperLogo{
+    display: flex;
+    justify-content: center;
+    width: 100px;   
+}
+ 
+.nav button{
+    font-family: "Shrikhand", serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: none;
+    cursor: pointer
+}
+
 
 .container{
     max-width: 1140px;
@@ -19,7 +58,7 @@ section.nav{
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    color: white;
+    color: rgb(247, 247, 247);
     padding: 10px;
     align-items: center;
 }
@@ -28,6 +67,7 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 
 
 

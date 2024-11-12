@@ -3,7 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto Tools</title>
+  <title>HooperStore</title>
+  <link rel="stylesheet" href="./Styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   <!-- Link para Javascrip - NAO EXCLUIR -->
 <script type="module" src="./scripts/home.js" defer></script>
 <link rel="stylesheet" href="./styles/styles.css">
@@ -11,19 +19,23 @@
 <body>
   <header>
     <section class="info-bar">
-      <div class="container">
-          <p class="Local">Campinas-sp</p>
-          <p class="Entregas">Entregamos para todo Brasil - compre pelo site ou telefone 0800 123 4567</p>
-          <p class="Ajuda">Precisa de ajuda?</p>
+      <div class="Barra_completa">
+        <div class="container">
+          <p class="CompraSegura"><i class="bi bi-lock-fill"></i> Compra Segura</p>
+          <p class="FreteGratis"><i class="bi bi-truck"></i>  Frete Grátis</p>
+          <p class="Entrgemos"><i class="bi bi-geo-alt-fill"></i> Entregamos em todo Brasil</p>
+        </div>
       </div>
     </section>
 
     <section class="nav">
-      <div class="container">
-        <img src="./images/logo.png" alt="Logo">
-        <div class="lupa"></div>
-        <input type="text">
-      </div>
+        <img class="HooperLogo" src="./Images/Logo.png" alt="Logomarca HooperStore">
+        <button class="BotaoLoja" type="button" class="Loja">Loja</button>
+        <button class="BotaoMinhaConta" type="button" class="MinhaConta">Minha Conta</button>
+        <button class="BotaoSobreNos" type="button" class="SobreNos">Sobre Nós </button>
+        <button class="BotaoReclame" type="button" class="ReclameAqui">Reclame aqui</button>
+        <button  class="BotaoCarrinho" type="button" class="Carrinho">Carrinho</button>
+      
     </section>
 
 
