@@ -5,7 +5,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         preco: 620.00, 
         descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
         imagemProduto: {
-            img1:"./images/products/prod01/img1.png",
+            img1:"./images/products/prod01/img01.png",
             img2:"./images/products/prod01/img2.png",
             img3:"./images/products/prod01/img3.png",
             img4:"./images/products/prod01/img4.png",

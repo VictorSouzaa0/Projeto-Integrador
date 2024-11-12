@@ -5,6 +5,9 @@
     box-sizing: border-box;
 
 }
+.header{
+    background-color: #000000;
+}
 /* É inserido a cor na info-bar */
 section.info-bar{
     background-color: #000000;
@@ -19,6 +22,9 @@ section.nav{
     color: white;
 }
 
+header{
+    background-color: #000000;
+}
 /*Definindo  a cor boostrap icons */
 .info-bar i{
     color: orange;
@@ -50,7 +56,22 @@ section.nav{
     border: none;
     cursor: pointer
 }
+.KobeBanner {
+    width: auto;   
+ }
+ 
+ .KobeBanner img{
+     width: 100%;
+     max-width: 1140px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+ }
 
+.Divisao{
+    padding: 0.3em;
+    background-color: #80808080;
+}
 
 .container{
     max-width: 1140px;
