@@ -10,7 +10,7 @@
 }
 /* É inserido a cor na info-bar */
 section.info-bar{
-    background-color: #000000;
+    background-color: rgba(128, 128, 128, 0.5);
     font-family: "Shrikhand", serif;
 }
 section.nav{
@@ -87,9 +87,12 @@ header{
 main {
     max-width: 1140px;
     margin: 0 auto;
+    font-family: "Shrikhand", serif;
+    background-color: #000000;
 }
-
-
+body{
+    background-color: #000000;
+}
 
 
 
@@ -135,12 +138,19 @@ main {
 }
 
 .product-card-title , 
-.product-card-reference,
-.product-card-price {
+.product-card-reference{
     font-size: 1em;
     font-weight: 400;
     line-height:1.125em ;
+    color: white;
     
+}
+
+.product-card-price {
+    color: orange;
+    font-size: 1em;
+    font-weight: 400;
+    line-height:1.125em ;
 }
 
 .product-card-title{
@@ -171,6 +181,7 @@ main {
     font-size: 0.75em;
     padding-bottom: 17px;;
     font-weight: 300;
+    color: white;
 }
 
 .product-card {

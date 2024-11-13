@@ -2,7 +2,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     {
         codigoProduto:1,
         tituloProduto:"Furadeira e Parafusadeira de Impacto a Bateria Bosch com Carregador e Bateria 18V 1/2 GSB 180-Li Bivolt", 
-        preco: 620.00, 
+        preco: 3200.00, 
         descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
         imagemProduto: {
             img1:"./images/products/prod01/img01.png",
