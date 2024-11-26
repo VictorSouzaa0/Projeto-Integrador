@@ -116,6 +116,8 @@ body{
     display: flex;
     transition: transform 0.5s ease;
     column-gap: 16px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .main-text{
@@ -205,8 +207,9 @@ body{
 .product-card-btn {
     width: 100%;
     padding: 5px 20px;
-    background-color: ;
+    background-color: orange;
     border-radius: 15px;
+    border-color: transparent;
     color: ;
 }
 
@@ -240,11 +243,11 @@ body{
 }
 
 .prev, .next {
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
-    color: rgb(23, 23, 23);
+    color: rgb(255, 196, 0);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -261,8 +264,7 @@ body{
 
   .grid_col_1 {
     grid-area: col1;
-    padding:25px
-   
+    padding:25px;
 }
 
 .grid_col_2 {
