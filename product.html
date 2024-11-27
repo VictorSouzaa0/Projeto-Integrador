@@ -16,7 +16,6 @@
     rel="stylesheet">
   <!-- Link para Javascrip - NAO EXCLUIR -->
   <script type="module" src="./scripts/product.js" defer></script>
-  <script type="module" src="./scripts/home.js" defer></script>
   <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
@@ -32,12 +31,19 @@
       </div>
     </section>
     <section class="nav">
-      <img class="HooperLogo" src="./Images/Logo.png" alt="Logomarca HooperStore">
+      <div class="buttonLogo">
+        <a href="./index.html">
+          <button type="submit">
+            <img src="./images/logo.png" alt="">
+          </button>
+        </a>
+      </div>
       <button class="BotaoLoja" type="button" class="Loja">Loja</button>
-      <button class="BotaoMinhaConta" type="button" class="MinhaConta">Minha Conta</button>
       <button class="BotaoSobreNos" type="button" class="SobreNos">Sobre Nós </button>
-      <button class="BotaoReclame" type="button" class="ReclameAqui">Reclame aqui</button>
-      <button class="BotaoCarrinho" type="button" class="Carrinho">Carrinho</button>
+      <button class="BotaoReclame" type="button" class="ReclameAqui">Contato</button>
+      <a href="./checkout.html">
+        <button class="BotaoCarrinho" type="button" class="Carrinho">Carrinho</button>
+      </a>
     </section>
 
 <!-- Componente Pagina individual de Produtos -->
@@ -93,8 +99,9 @@
                 <input type="radio" name="" id="">
               </div>
               <div class="pricing">
-                <h3>R$ 19,00</h3>
-                <p>Entrega em até 7 dias uteis</p>
+                <h3>Correios</h3>
+                <h3>R$ 20.00</h3>
+                <p>Entrega em até 14 dias uteis</p>
               </div>
             </div>
 
@@ -103,6 +110,7 @@
                 <input type="radio" name="" id="">
               </div>
               <div class="pricing">
+                <h3>JadLog</h3>
                 <h3>R$ 19,00</h3>
                 <p>Entrega em até 7 dias uteis</p>
               </div>

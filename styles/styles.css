@@ -47,7 +47,10 @@ header{
     justify-content: center;
     width: 100px;   
 }
- 
+
+.buttonLogo img{
+     width: 7em;
+}
 .nav button{
     font-family: "Shrikhand", serif;
     font-size: 15px;
@@ -55,6 +58,10 @@ header{
     background-color: black;
     border: none;
     cursor: pointer
+}
+
+.nav button:hover{
+    color: orange;
 }
 .KobeBanner {
     width: auto;   
@@ -204,6 +211,7 @@ body{
     object-fit: cover;
 }
 
+
 .product-card-btn {
     width: 100%;
     padding: 5px 20px;
@@ -211,6 +219,7 @@ body{
     border-radius: 15px;
     border-color: transparent;
     color: ;
+    cur
 }
 
 .products-container {
@@ -295,7 +304,7 @@ body{
 }
 
 .product.main-text {
-    font-size:1.2em
+    font-size:1.5em
 }
 
 /* product page grid */
@@ -335,11 +344,13 @@ body{
     padding: 10px 0;
  }
 
+ .images_selector img:hover{
+    transform: scale(2);
+ } 
+
 .product_thumb {
     width: 100%;
 }
-
-
 
 .images_main {
     flex-basis: 565px;
@@ -371,11 +382,11 @@ body{
 }
 
 .product_price_container h2{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
-    padding-bottom: 16px;
+    padding-bottom: 14px;
     line-height: 18px;
-
+    color: orange;
 }
 
 .product_price_container h5{
@@ -401,7 +412,7 @@ body{
 }
 
 .shop_btn {
-    padding: 16px 32px;
+    padding: 8px 16px;
     color: ;
     border-radius: 5px;
     border: none;
@@ -453,7 +464,7 @@ body{
  }
 
  .freight_pricing {
-    background-color: #E7ECFF;
+    background-color: #0400ff;
     border: 1px solid ;
     padding: 16px 16px;
     border-radius: 5px;
@@ -477,22 +488,22 @@ body{
 }
 
 .freight_pricing:nth-child(4){
-    background-color: #EAFFE7;
+    background-color: #0e6e01;
    
 }
 
 .freight_pricing:nth-child(5){
-    background-color: #FFFDE7;
+    background-color: #6d6400;
    
 }
 
 .freight_pricing:nth-child(6){
-    background-color: #FFF2E7;
+    background-color: #9e4700;
    
 }
 
 .product.text-container p {
-    font-size: 0.875em;
+    font-size: 1em;
     padding: 10px 0px;
 }
 
