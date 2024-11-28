@@ -10,7 +10,7 @@
 }
 /* É inserido a cor na info-bar */
 section.info-bar{
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: #80808080;
     font-family: "Shrikhand", serif;
 }
 section.nav{
@@ -63,10 +63,12 @@ header{
 .nav button:hover{
     color: orange;
 }
+
 .KobeBanner {
     width: auto;   
  }
  
+ .about,
  .KobeBanner img{
      width: 100%;
      max-width: 1140px;
@@ -101,11 +103,57 @@ body{
     background-color: #000000;
 }
 
+.footer {
+    background-color: #80808080; /* Cor de fundo */
+    color: #ecf0f1;           /* Cor do texto */
+    padding: 20px 0;
+    border-top: 3px solid #000000;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
+.footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    text-align: center; /* Alinhamento central */
+}
 
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
 
+.footer-links {
+    margin-top: 10px;
+}
 
+.footer-links a {
+    text-decoration: none;
+    color: orange; /* Cor dos links */
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
 
+.footer-links a:hover {
+    color: #16a085; /* Cor ao passar o mouse */
+}
+
+.TitleAbout {
+    border-style: solid;
+    border-color: orange;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.TitleAbout h1{
+    color: orange;
+}
+.aboutTxt h1{
+    color: rgb(255, 187, 0);
+}
 
 /* CSS dos Componentes do Projeto - Utilize o inspecionar elementos antes de modificar os valores */
 
@@ -680,13 +728,89 @@ body{
     display: flex;
     flex-direction: column;
 }
+@media (max-width: 1024px) {
+    .nav, .container, .footer-container, .KobeBanner img, .products-container {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .nav {
+        justify-content: center;
+        padding: 10px;
+    }
 
+    .products-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
 
+    .section-product-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
 
+    .nav button {
+        font-size: 12px;
+    }
 
+    .product-card {
+        flex-basis: 100%;
+    }
 
+    .section-product-grid {
+        grid-template-columns: 1fr;
+    }
 
+    .footer-links a {
+        display: block;
+        margin: 10px 0;
+    }
 
+    .text-container {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-card img {
+        object-fit: contain;
+    }
+
+    .container-flex {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .product_price_container h2 {
+        font-size: 1.2em;
+    }
+
+    .cart_item {
+        flex-direction: column;
+        align-items: stretch;
+        row-gap: 16px;
+    }
+
+    .cart_item_main_img {
+        flex-basis: auto;
+    }
+
+    .checkout_btn {
+        font-size: 16px;
+    }
+
+    .form-field {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .form-field.cep, .form-field.uf, .cvv, .val {
+        width: 100%;
+    }
+}
 
