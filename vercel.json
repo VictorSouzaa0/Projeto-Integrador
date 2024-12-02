@@ -1,35 +1,35 @@
 {
     "rewrites": [
       {
-        "source": "/",
+        "source": "/index",
         "destination": "/index.html"
       },
       {
-        "source": "/",
+        "source": "/adm",
         "destination": "/adm.html"
       },
       {
-        "source": "/",
+        "source": "/checkout",
         "destination": "/checkout.html"
       },
       {
-        "source": "/",
+        "source": "/payment",
         "destination": "/payment.html"
-      }, 
+      },
       {
-        "source": "/",
+        "source": "/product",
         "destination": "/product.html"
       },
       {
-        "source": "/",
+        "source": "/products",
         "destination": "/products.html"
       },
       {
-        "source": "/",
+        "source": "/aboutme",
         "destination": "/aboutme.html"
       },
       {
-        "source": "/",
+        "source": "/contato",
         "destination": "/contato.html"
       }
     ]
