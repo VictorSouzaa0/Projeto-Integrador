@@ -5,11 +5,31 @@
         "destination": "/index.html"
       },
       {
-        "source": "/sobre",
+        "source": "/",
+        "destination": "/adm.html"
+      },
+      {
+        "source": "/",
+        "destination": "/checkout.html"
+      },
+      {
+        "source": "/",
+        "destination": "/payment.html"
+      }, 
+      {
+        "source": "/",
+        "destination": "/product.html"
+      },
+      {
+        "source": "/",
+        "destination": "/products.html"
+      },
+      {
+        "source": "/",
         "destination": "/aboutme.html"
       },
       {
-        "source": "/contact",
+        "source": "/",
         "destination": "/contato.html"
       }
     ]
