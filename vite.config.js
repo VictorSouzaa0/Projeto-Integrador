@@ -5,13 +5,13 @@ export default defineConfig({
     rollupOptions: {
       input: {
         index: 'index.html',
-        adm: 'src/adm.html',
-        checkout: 'src/checkout.html',
-        payment: 'src/payment.html',
-        product: 'src/product.html',
-        products: 'src/products.html',
-        aboutme: 'src/aboutme.html',
-        contato: 'src/contato.html'
+        adm: 'adm.html',
+        checkout: 'checkout.html',
+        payment: 'payment.html',
+        product: 'product.html',
+        products: 'products.html',
+        aboutme: 'aboutme.html',
+        contato: 'contato.html'
       }
     }
   }
