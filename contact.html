@@ -52,40 +52,41 @@
         <button class="BotaoCarrinho" type="button" class="Carrinho">Carrinho</button>
       </a>
     </section>
-    <section class="KobeBanner"><img src="./images/kobe-bryant-los-3840x2160-11729.png" alt="Logo_kobe"></section>
-    <div class="Divisao"></div>
   </header>
+  <main class="About">
+    <div class="TitleAbout">
+        <h1>Contato</h1>
+    </div>
+    <section id="contato">
+        <div class="container">
 
-  <main>
-    <!-- Componente Carrousel de Produtos -->
-    <section id="section-1" class="section-product-carrousel">
-      <div class="carrousel">
-        <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
-
-      </div>
-
-    </section>
-
-    <!-- Botoes reservados para o carrousel - nao remover -->
-
-    <!-- Componente Carrousel de Produtos -->
-    <section id="section-2" class="section-product-carrousel">
-      <div class="carrousel">
-        <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
-      </div>
-    </section>
-    <!-- Botoes reservados para o carrousel - nao remover -->
-
-
-
-    <!-- Componente Carrousel de Produtos -->
-    <section id="section-3" class="section-product-carrousel">
-      <div class="carrousel">
-        <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
-
-    </section>
-    <!-- Botoes reservados para o carrousel - nao remover -->
-
+          <p>Nos envie seu feedback ou dúvidas, e retornaremos o mais breve possível!</p>
+          <form action="/enviar-feedback" method="POST">
+            <div class="form-group">
+              <label for="nome">Seu Nome:</label>
+              <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Seu E-mail:</label>
+              <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="form-group">
+              <label for="categoria">Categoria de Contato:</label>
+              <select id="categoria" name="categoria">
+                <option value="sugestao">Sugestão</option>
+                <option value="duvida">Dúvida</option>
+                <option value="reclamacao">Reclamação</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Sua Mensagem:</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+      
   </main>
   <footer class="footer">
     <div class="footer-container">
@@ -98,7 +99,3 @@
         </nav>
     </div>
 </footer>
-
-</body>
-
-</html>

@@ -155,6 +155,56 @@ body{
     color: rgb(255, 187, 0);
 }
 
+#contato {
+    padding: 40px;
+    background-color: #000000;
+  }
+  
+  
+  h2 {
+    text-align: center;
+    color: #939393;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #0062ca;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+  }
+  
 /* CSS dos Componentes do Projeto - Utilize o inspecionar elementos antes de modificar os valores */
 
 .container-flex {
@@ -267,7 +317,6 @@ body{
     border-radius: 15px;
     border-color: transparent;
     color: ;
-    cur
 }
 
 .products-container {
