@@ -5,9 +5,6 @@
     box-sizing: border-box;
 
 }
-.header{
-    background-color: #000000;
-}
 /* É inserido a cor na info-bar */
 section.info-bar{
     background-color: #80808080;
@@ -22,6 +19,7 @@ section.nav{
     color: white;
 }
 
+/* Definindo a cor de fundo do header */
 header{
     background-color: #000000;
 }
@@ -29,7 +27,7 @@ header{
 .info-bar i{
     color: orange;
 }
-
+/* Ajustando o tamanho e posição da nav-bar */
 .nav{
     width: 100%;
     max-width: 1200px;
@@ -41,16 +39,18 @@ header{
     padding: 15px;
 }
 
-
+/* Ajustando o tamanho da logo na nav-bar */
 .nav .HooperLogo{
     display: flex;
     justify-content: center;
     width: 100px;   
 }
-
+/* Ajustando tamanho do botão imagem da logo */
 .buttonLogo img{
      width: 7em;
 }
+
+/* Definindo fonte e cores do botão da nav-bar */
 .nav button{
     font-family: "Shrikhand", serif;
     font-size: 15px;
@@ -59,15 +59,15 @@ header{
     border: none;
     cursor: pointer
 }
-
+/* adicionando hover nos botões info-bar */
 .nav button:hover{
     color: orange;
 }
-
+/* Ajustando tamanho da imagem de capa para o tamanho limite */
 .KobeBanner {
     width: auto;   
  }
- 
+/* Ajustando a posição da capa da home e sobre nós */
  .about,
  .KobeBanner img{
      width: 100%;
@@ -76,12 +76,12 @@ header{
      display: flex;
      justify-content: center;
  }
-
+/* Quebra de linha para partes do site */
 .Divisao{
     padding: 0.3em;
     background-color: #80808080;
 }
-
+/* definindo tamanho maximo do container e posição dos items */
 .container{
     max-width: 1140px;
     margin: 0 auto;
@@ -92,17 +92,18 @@ header{
     padding: 10px;
     align-items: center;
 }
-
+/* definindo tamanho do main */
 main {
     max-width: 1140px;
     margin: 0 auto;
     font-family: "Shrikhand", serif;
     background-color: #000000;
 }
+/* definindo cor de fundo do body */
 body{
     background-color: #000000;
 }
-
+/* definindo cor de fundo do footer */
 .footer {
     background-color: #80808080; /* Cor de fundo */
     color: #ecf0f1;           /* Cor do texto */
@@ -112,34 +113,33 @@ body{
     bottom: 0;
     width: 100%;
 }
-
+/* definindo tamanho do container do footer */
 .footer-container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto; /* Centraliza o conteúdo */
     text-align: center; /* Alinhamento central */
 }
-
+/* definindo tamanho do p dentro do footer */
 .footer p {
     margin: 5px 0;
     font-size: 14px;
 }
-
+/* ajustando altura do link do footer */
 .footer-links {
     margin-top: 10px;
 }
-
+/* ajustando tamanho e cor das "a" do footer */
 .footer-links a {
     text-decoration: none;
     color: orange; /* Cor dos links */
     margin: 0 15px;
     transition: color 0.3s ease;
 }
-
 .footer-links a:hover {
     color: #16a085; /* Cor ao passar o mouse */
 }
-
+/* Definindo a cor da borda do titulo sobre nós */
 .TitleAbout {
     border-style: solid;
     border-color: orange;
@@ -147,36 +147,37 @@ body{
     justify-content: center;
     background-color: #000000;
 }
-
+/* cor do titulo sobre nós */
 .TitleAbout h1{
     color: orange;
 }
+/* cor do texto sobre nós */
 .aboutTxt h1{
     color: rgb(255, 187, 0);
 }
-
+/* fundo contato */
 #contato {
     padding: 40px;
     background-color: #000000;
   }
   
-  
+/* cor e posição h2 */
   h2 {
     text-align: center;
     color: #939393;
   }
-  
-  .form-group {
+/* posicionado o bottom */
+.form-group {
     margin-bottom: 20px;
   }
-  
+/* Inserindo cor do label */
   label {
     font-size: 16px;
     color: #555;
     display: block;
     margin-bottom: 5px;
   }
-  
+/* Inserindo o tamanho da input,select e text area */
   input, select, textarea {
     width: 100%;
     padding: 10px;
@@ -184,12 +185,12 @@ body{
     border-radius: 4px;
     font-size: 14px;
   }
-  
+/* posicao textarea */
   textarea {
     height: 120px;
     resize: vertical;
   }
-  
+/* propriedades do botao */
   button {
     background-color: #0062ca;
     color: #fff;
@@ -200,7 +201,7 @@ body{
     cursor: pointer;
     width: 100%;
   }
-  
+/* adcionando o hover azul nos botões */
   button:hover {
     background-color: #007bff;
   }
@@ -777,6 +778,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 @media (max-width: 1024px) {
     .nav, .container, .footer-container, .KobeBanner img, .products-container {
         flex-direction: column;
@@ -797,7 +799,7 @@ body{
         grid-template-columns: 1fr;
     }
 }
-
+/* adiconando resposivdade */
 @media (max-width: 768px) {
     .nav {
         flex-direction: column;
